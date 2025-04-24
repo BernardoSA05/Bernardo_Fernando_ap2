@@ -127,7 +127,7 @@ contas_receber_23 = valor_contabil(df4, "^1.0*", "^Contas a Receber$")
 clientes_medio = (clientes_24 + clientes_23) / 2
 
 
-receita_24 = valor_contabil(df2, "^7.0*", "^Receitas$")
+receita_24 = valor_contabil(df2, "^3.01$", "^Receita.*")
 cmv_24 = valor_contabil(df2, "^3.0*", "^Custo dos Produtos$")*(-1)
 compras = estoque_24 - estoque_23 + cmv_24 
 
@@ -141,7 +141,7 @@ pmrv = (clientes_medio / receita_24)*360
 pmpf = (fornecedores_medio / compras)*360
 
 #Ciclo Operacional (CO)
-co = pme +pmrv 
+co = pme + pmrv 
 
 #Ciclo Financeiro (CF)
 cf = co - pmpf
