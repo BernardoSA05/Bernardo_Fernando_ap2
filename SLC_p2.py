@@ -198,9 +198,7 @@ dados2 = r2.json()['dados'][0]
 balanco2 = dados2['balanco']
 df3 = pd.DataFrame(balanco2)
 df3.to_excel("C:\\Users\\berna\\OneDrive\\Área de Trabalho\\Ibmec faculdade bernardo\\slce3_2023.xlsx")
-df4 = pd.read_excel("C:\\Users\\berna\\OneDrive\\Área de Trabalho\\Ibmec faculdade bernardo\\slce3_2023.xlsx")
-
-
+df4 = pd.read_excel("C:\\Users\\berna\\OneDrive\\Área de Trabalho\\Ibmec faculdade bernardo\\slce3_2023.xlsx") 
 
 
 
