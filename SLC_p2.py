@@ -201,8 +201,7 @@ df3.to_excel("C:\\Users\\berna\\OneDrive\\Área de Trabalho\\Ibmec faculdade ber
 df4 = pd.read_excel("C:\\Users\\berna\\OneDrive\\Área de Trabalho\\Ibmec faculdade bernardo\\slce3_2023.xlsx") 
 
 
-
-
+excel_contabilidade = 'C:\\Users\\berna\\OneDrive\\Área de Trabalho\\Ibmec faculdade bernardo\\balanço patrimonial slc agricola BP PT 4T24.xlsx'
 
 
 
